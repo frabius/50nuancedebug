@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents("80.211.145.93/script.php");
+$json = file_get_contents("80.211.145.93/test.php");
 $data = json_decode($json);
 ?>
 
