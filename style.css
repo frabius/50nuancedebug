@@ -1,0 +1,11 @@
+#block {
+
+    border: 2px solid;
+    width: 300px;
+    heigth: 150px;
+    
+}
+
+.button{
+    margin-bottom: 10px;
+}
