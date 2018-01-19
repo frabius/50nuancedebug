@@ -25,13 +25,13 @@ $data = json_decode($json);
 </header>
 
 <main>
-    <div class="grid grid-pad" style="padding: 0;">
-        <div class="col-3-12">
+    <div class="row" style="padding: 0;">
+        <div class="col-md-3">
             <div class="content">
                 <img src="imgonglet.png" alt="Photo du groupe" width="350px"/>
             </div>
         </div>
-        <div class="col-6-12" align="center">
+        <div class="col-md-6" align="center">
             <div class="jumbotron" >
                 <div class="container">
                     <h2>Bienvenue au cinéma</h2>
@@ -40,12 +40,12 @@ $data = json_decode($json);
                     </p>
 
                     <div class="button">
-                        <a class="btn btn-secondary" href="../page2/listsession   .php" role="button">Liste des séances</a>
+                        <a class="btn btn-secondary" href="../page2/listsession.php" role="button">Liste des séances</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-3-12" align="center">
+        <div class="col-md-3" align="center">
             <div class="imgiteracode">
                 <img src="logo-iteracode.jpg" alt="Iteracode" width="250px"/>
             </div>

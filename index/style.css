@@ -18,15 +18,15 @@ main {
     margin-top: 200px;
 }
 
-.col-6-12 {
+.col-md-6 {
     margin-top: 200px;
 }
 
-.col-6-12 .jumbotron{
+.col-md-6 .jumbotron{
     border-radius: 75px;
 }
 
-.col-6-12 .container {
+.col-md-6 .container {
     border-style: solid;
     border-width: 3px;
 }
