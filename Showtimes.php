@@ -1,16 +1,5 @@
 <?php
 header('Content-Type: application/json');
-$showtimes = [['id' => 1, 'name' = > 'Star Wars']];
+$showtimes = [['id' => '1', 'name' => 'Le seigneur des anus']];
 echo (json_encode($showtimes));
 ?>
-// [ [ 'id' => 1, 'name' => 'String' ] ]
-// json_encode($monTab)
-
-/*
-[
- {
-   id: 1,
-   name: 'String'
- }
-]
-*/
