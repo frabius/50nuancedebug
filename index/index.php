@@ -17,40 +17,11 @@ $data = json_decode($json);
     <link rel="shortcut icon" href="imgonglet.png">
 </head>
 
-<body>
+<body background="cléclé.jpg">
 <header>
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand">Cinquantenuancesdebug</a>
-    </nav>
 </header>
 
 <main>
-    <div class="row" style="padding: 0;">
-        <div class="col-md-3">
-            <div class="content">
-                <img src="imgonglet.png" alt="Photo du groupe" width="350px"/>
-            </div>
-        </div>
-        <div class="col-md-6" align="center">
-            <div class="jumbotron" >
-                <div class="container">
-                    <h2>Bienvenue au cinéma</h2>
-                    <p>
-                        <?php echo $data->{'name'};?>
-                    </p>
-
-                    <div class="button">
-                        <a class="btn btn-secondary" href="../page2/listsession.php" role="button">Liste des séances</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3" align="center">
-            <div class="imgiteracode">
-                <img src="logo-iteracode.jpg" alt="Iteracode" width="250px"/>
-            </div>
-        </div>
-    </div>
 
 </main>
 
