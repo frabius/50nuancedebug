@@ -9,3 +9,24 @@
 .button{
     margin-bottom: 10px;
 }
+
+main {
+    margin: 50px;
+}
+
+.imgiteracode {
+    margin-top: 200px;
+}
+
+.col-6-12 {
+    margin-top: 200px;
+}
+
+.col-6-12 .jumbotron{
+    border-radius: 75px;
+}
+
+.col-6-12 .container {
+    border-style: solid;
+    border-width: 3px;
+}

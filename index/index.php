@@ -19,32 +19,34 @@ $data = json_decode($json);
 
 <body>
 <header>
-
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand">Cinquantenuancesdebug</a>
+    </nav>
 </header>
 
 <main>
     <div class="grid grid-pad" style="padding: 0;">
-        <div class="col-1-6">
+        <div class="col-3-12">
             <div class="content">
-                <img src="imgonglet.png" alt="Photo du groupe" width="450px"/>
+                <img src="imgonglet.png" alt="Photo du groupe" width="350px"/>
             </div>
         </div>
-        <div class="col-8-12" align="center">
-            <div class="content">
-                <div id="block" align="center">
-                    <p>Bienvenue au cinéma</p>
+        <div class="col-6-12" align="center">
+            <div class="jumbotron" >
+                <div class="container">
+                    <h2>Bienvenue au cinéma</h2>
                     <p>
                         <?php echo $data->{'name'};?>
                     </p>
 
-                        <div class="button">
-                            <button type="submit" name="button">Liste des séances</button>
-                        </div>
+                    <div class="button">
+                        <a class="btn btn-secondary" href="../page2/listsession   .php" role="button">Liste des séances</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-2-12">
-            <div class="content">
+        <div class="col-3-12" align="center">
+            <div class="imgiteracode">
                 <img src="logo-iteracode.jpg" alt="Iteracode" width="250px"/>
             </div>
         </div>
