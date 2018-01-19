@@ -1,9 +1,6 @@
 <?php
 header('Content-Type: application/json');
-
-  $showtimes = array("id" => array(1, 2, 3),"name" => array("jhgjhg","hjgkg","chhs"));
-  foreach ($variable as $key => $value {
-    echo (json_encode("Id : $key; name : $value"));
-
-
+//$showtimes = array('1' => 'Star Wars', '2' => 'Le seigneur des anus');
+$showtimes = array("Id" => array(1,2,3));
+echo (json_encode($showtimes));
 ?>
